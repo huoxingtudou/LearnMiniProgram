@@ -24,11 +24,11 @@
 			"outputPath": ""
 		},
 		"useIsolateContext": true,
-		"useCompilerModule": true,
+		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.11.2",
 	"appid": "wx8fb1249f4ba0e22f",
 	"projectname": "miniprogram",
 	"debugOptions": {
