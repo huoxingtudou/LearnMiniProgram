@@ -1,0 +1,7 @@
+/* pages/wxml/wxml.wxss */
+.box{
+  background: red;
+}
+.active{
+  background: red;
+}
