@@ -1,0 +1,18 @@
+<!--pages/view/view.wxml-->
+<!-- 1.基本使用 -->
+<view>
+  <text>hhh</text>
+  <button>按钮</button>
+</view>
+<!-- 2.hover-class 按下组件，显示的样式 -->
+<view hover-class="box1"
+      hover-stay-time="1000"
+>啦啦啦</view>
+
+<!-- 3.hover-stop-propagation -->
+<view class="box2" hover-class="box2-hover">
+  <view class="box1" hover-class="box1-hover"
+        hover-stay-time="1000"
+        hover-stop-propagation
+  >啦啦啦</view>
+</view>
