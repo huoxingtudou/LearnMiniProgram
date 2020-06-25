@@ -1,0 +1,6 @@
+ var message = "hello world"
+  var name = 'yph'
+  module.exports = {
+    message : message,
+    name : name
+  }
